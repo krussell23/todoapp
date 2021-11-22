@@ -1,0 +1,18 @@
+@use 'reboot';
+@use 'page-header';
+@use 'page-link';
+@use 'error-message';
+@use 'toDoList';
+@use 'addBtn';
+@use 'editButton';
+@use 'deleteButton';
+@use 'crud-page-styles';
+
+body {
+    background-color: rgb(80, 93, 110);
+}
+
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+}

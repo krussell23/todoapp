@@ -1,0 +1,22 @@
+.app-bar {
+    position: fixed;
+    bottom: 0;
+    height: 2rem;
+    width: 100%;
+    max-width: 960px;
+}
+.add-btn {
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 8px;
+    background: rgb(21, 17, 252);
+}
+
+.add-btn:hover {
+    background-color: rgb(6, 248, 6);
+    cursor: pointer;
+}

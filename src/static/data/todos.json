@@ -1,0 +1,52 @@
+[
+    {
+        "id": "aw45f25v",
+        "category": "family",
+        "title":"Family Category",
+        "isComplete":false,
+        "startDate":"Tuesday November 2nd",
+        "startTime":"9:00am",
+        "endDate":"Tuesday November 2nd",
+        "endTime":"5:00pm"
+    },
+    {
+        "id": "aw45f26v",
+        "category": "work",
+        "title":"Work Category",
+        "isComplete":true,
+        "startDate":"Saturday October 2nd",
+        "startTime":"10:00am",
+        "endDate":"Saturday October 2nd",
+        "endTime":"10:00am"
+    },
+    {
+        "id": "aw45f27v",
+        "category": "shopping",
+        "title":"Shopping Category",
+        "isComplete":false,
+        "startDate":"Thursday October 28th",
+        "startTime":"10:00am",
+        "endDate":"Thursday October 28th",
+        "endTime":"10:00pm"
+    },
+    {
+        "id": "aw45f28v",
+        "category": "social",
+        "title":"Social Category",
+        "isComplete":true,
+        "startDate":"Friday September 29th",
+        "startTime":"3:00pm",
+        "endDate":"Friday September 29th",
+        "endTime":"5:00pm"
+    },
+    {
+        "id": "aw45f29v",
+        "category": "relax",
+        "title":"Relax Category",
+        "isComplete":true,
+        "startDate":"Saturday September 30th",
+        "startTime":"10:00am",
+        "endDate":"Saturday September 30th",
+        "endTime":"11:00pm"
+    }
+]

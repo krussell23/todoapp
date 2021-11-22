@@ -1,0 +1,37 @@
+{
+	"name": "todolistapp",
+	"version": "1.0.0",
+	"description": "simple vanilla js project",
+	"default": "src/index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npm run static && npx parcel src/index.html",
+		"static": "npx gulp",
+		"dev": "",
+		"build": "npm run static && npx parcel build src/index.html",
+		"clean:dev": "rm -rf .parcel-cache dist",
+		"clean:git": "rimraf .parcel-cache dist  node_modules"
+	},
+	"keywords": [
+		"to",
+		"do",
+		"list"
+	],
+	"author": "Kevin Russell",
+	"email": "russellmedia76@gmail.com",
+	"git-repo": "https://github.com/krussell23/todoapp",
+	"app-homepage": "https://krussell23todoapp.netlify.app",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.0.0-rc.0",
+		"gulp": "^4.0.2",
+		"http-server": "^13.0.2",
+		"parcel": "^2.0.0-rc.0",
+		"sass": "^1.42.1"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"rimraf": "^3.0.2",
+		"uuid": "^8.3.2"
+	}
+}

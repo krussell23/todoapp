@@ -1,0 +1,141 @@
+.crud-list {
+    margin: 2rem 1rem 2rem;
+    border-radius: 8px;
+    color: rgb(46, 100, 236);
+
+    h2 {
+        font-size: 1.05rem;
+        font-weight: 700;
+
+        svg {
+            width: 1.5rem;
+            height: auto;
+        }
+    }
+
+    li {
+        margin: 1rem 0;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        background-color: rgb(230, 214, 214);
+        border-radius: 8px;
+    }
+
+    li p {
+        font-size: .85rem;
+        font-weight: 500;
+        margin-top: .5rem;
+    }
+
+    li span {
+        color: rgb(102, 85, 85);
+        font-weight: 400;
+    }
+
+    .completed {
+        color: rgb(4, 245, 4);
+        font-weight: 700;
+    }
+}
+
+.crud-controls {
+    text-align: center;
+    margin: 1rem 0 2rem;
+}
+
+.error {
+    font-size: .85rem;
+    color: rgb(182, 13, 13);
+    text-align: center;
+    font-weight: 700;
+}
+
+.crud-form {
+    width: 90%;
+    max-width: 500px;
+    margin: 1rem auto 0;
+
+    h2 {
+        text-align: center;
+        color: rgb(13, 24, 53);
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    p {
+        font-weight: 500;
+        text-align: center;
+        color: rgb(128, 128, 128);
+    }
+
+    .form-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+    .full-width:first-child {
+        label {
+            width: 100%;
+        }
+
+        input {
+            width: 5.5rem;
+        }
+    }
+
+    .side-by-side {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .side-by-side>div {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .side-by-side>div:last-child {
+        width: 25%;
+    }
+
+    label {
+        margin-bottom: 0rem;
+        color: rgb(13, 24, 53);
+    }
+
+    input,
+    select {
+        width: 100%;
+        height: 2rem;
+        margin-bottom: 1rem;
+        padding-left: .3rem;
+        border-radius: 8px;
+        border: 1px solid rgb(128, 128, 128);
+    }
+
+    input[type=text],
+    select {
+        color: rgb(128, 128, 128);
+    }
+
+    *:focus {
+        outline: none;
+    }
+
+    input:focus,
+    select:focus {
+        border-bottom: 2px solid rgb(185, 122, 4);
+    }
+
+    .checkbox label {
+        width: 90%;
+        text-align: center;
+    }
+}
